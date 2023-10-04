@@ -27,6 +27,8 @@ Se puede distinguir un objeto de UI de otros objetos con el tipo de transform (l
 | ---------------------------------------------------------- | :------------------------------------------------: |
 | ![TransformObjetoBasico](imgMds/TransformObjetoBasico.png) | ![TransformObjetoUI](imgMds/TransformObjetoUI.png) |
 
+### Canvas
+
 En el inspector del Canvas:
 
 - Render Mode:
@@ -39,8 +41,68 @@ En el inspector del Canvas:
 ![InspectorCanvas](imgMds/InspectorCanvas.png)
 
 - UI Scale Mode:
+
   - Scale With Screen Size - Toma como referencia una resolución en específico y si cambia la del dispositivo, cambia la de la interfaz de forma responsiva.
     ![InspectoCanvasScaler](imgMds/InspectoCanvasScaler.png)
 
-En un texto solo se deja la opción de raycast activada si se va a tener alguna interacción con el texto.
-El text mesh pro evita que se pixelee el texto.
+- InspectorRaycaster:
+  - Permite interactuar con textos/botones
+    ![Raycaster](imgMds/InspectorRaycaster.png)
+
+El event sistema (que se crea cuando añadimos un Canvas) nos permite generar eventos del canvas.
+
+### Anchor Points (Rect Transform)
+
+Los puntos de anclaje de una imagen son a donde va a tender una imagen cuando cambia el tamaño de la pantalla. Nos ayuda a hacer la IU responsiva.
+![RectTransform](imgMds/RectTransform.png)
+<img src="imgMds/AnchorPoints.png" alt="AnchorPoints" width="200" height="250"/>
+
+![AnchorPoints2](imgMds/AnchorPoints2.png)
+
+Cuando se está en la ventana de `anchors` y se le da click a `shift` entonces también cambia el pivote
+
+- El `pivot` es el punto entorno el cual va a girar la figura.
+
+<img src="imgMds/AnchorYPivote.png" alt="AnchorYPivote" width="200" height="250"/>
+
+Cuando se está en la ventana de `anchors` y se le da click a `alt` entonces también cambia la posición del objeto
+
+Para checar si los puntos de anclaje se establecieron correctamente sirve cambiar las dimensiones del dispositivo (Portrait-Landscape)
+
+### Texto
+
+#### Legacy Texto
+
+![Text](imgMds/Text.png)
+
+Para cambiar el font:
+![Font](imgMds/Font.png)
+
+Pero primero hay que importar el font que queramos usar. Se necesita agregar al proyecto el archivo `.ttf` o `.ttc` del font que quieras.
+
+<img src="imgMds/Fonts.png" alt="Fonts" width="200" height="200"/>
+
+Usando HTML se pueden modificar las características del texto. (Tiene que estar seleccionada la opción de `Rich Text`)
+
+Si `Raycast Target` está activado se le está informando que el texto puede recibir interacción, si no se espera que sea interactivo hay que desmarcar la opción para no sobrecargar inecesariamente el programa.
+
+![Effects](imgMds/Effects.png)
+
+Es una buena práctica agregarle outline a nuestros textos
+![EffectsOutline](imgMds/EffectsOutline.png)
+
+Si aumentamos su escala (no su `size` directamente, el texto se va a pixelear)
+
+#### Text Mesh Pro
+
+![TextMeshPro](imgMds/TextMeshPro.png)
+
+Si no aparece la opción de importar los essentials entonces
+![ImportEssentials](imgMds/ImportEssentials.png)
+
+Con esta opción de texto tenemos más posibilidades y no se pixelea como lo hace el Legacy-Text
+
+Si se quiere usar un font diferente al default se tiene que crear el asset porque el Text Mesh Pro no trabaja con archivos .ttf
+![FontAssetCreator](imgMds/FontAssetCreator.png)
+
+### Imagenes
