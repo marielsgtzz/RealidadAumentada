@@ -106,3 +106,21 @@ Si se quiere usar un font diferente al default se tiene que crear el asset porqu
 ![FontAssetCreator](imgMds/FontAssetCreator.png)
 
 ### Imagenes
+
+Cuando importas una imagen a Unity lo hace como textura. Si la queremos como tal en la GUI necesitamos cambiarla a `Sprite`.
+![ImgSprite](imgMds/ImgSprite.png)
+
+![ImgSprite2](imgMds/ImgSprite2.png)
+
+Se agrega el componente UI de imagen y se agrega el sprite como `source image`
+![Img](imgMds/Img.png)
+
+![ImgInspector](imgMds/ImgInspector.png)
+
+Si se usa el objeto de `Raw Image` no se tiene que convertir la textura a sprite, se puede usar directamente como se importó.
+
+Tiene una propiedad `UV Rect` que se puede usar para animar la imagen.
+
+Típicamente el objeto de `image` se suele usar en lugar de `raw image` cuando se trata de la GUI.
+
+También hay un componente que se le puede agregar a las imagenes que es el de `mask` (máscara).

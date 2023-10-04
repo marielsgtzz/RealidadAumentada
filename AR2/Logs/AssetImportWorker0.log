@@ -256,3 +256,19 @@ Received Import Request.
 Start importing Assets/Fonts using Guid(2a1ac06928ebd4e3c9137f51208991a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0de319472442bbcd12c763d7aca671c') in 0.000405 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13570.826631 seconds.
+  path: Assets/Foxy/Unity-logo.png
+  artifactKey: Guid(bc50cc5941da844288955a2fbaada444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Foxy/Unity-logo.png using Guid(bc50cc5941da844288955a2fbaada444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156d8ac7649c51ea99001977e2ff5e31') in 0.032483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 130.961003 seconds.
+  path: Assets/Foxy/Unity-logo.png
+  artifactKey: Guid(bc50cc5941da844288955a2fbaada444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Foxy/Unity-logo.png using Guid(bc50cc5941da844288955a2fbaada444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722bde5db7aaa3711dc53a100d63a8dd') in 0.027877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
