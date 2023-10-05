@@ -141,3 +141,5 @@ En la ventana de inspector del botón:
   - Se arrastra ese objeto con script dentro del espacion On Click del botón
   - Se selecciona qué función del objeto se ejecutará con el click (necesita ser pública y puede ser una función de a lo mucho 1 parámetro)
   - Se le pueden asociar múltiples objetos-funciones al botón
+
+Los componentes de toggle y slider funcionan de forma muy similar.
