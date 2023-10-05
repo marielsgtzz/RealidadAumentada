@@ -124,3 +124,20 @@ Tiene una propiedad `UV Rect` que se puede usar para animar la imagen.
 Típicamente el objeto de `image` se suele usar en lugar de `raw image` cuando se trata de la GUI.
 
 También hay un componente que se le puede agregar a las imagenes que es el de `mask` (máscara).
+
+### Botones
+
+Al igual que con el texto, en las últimas versiones de Unity está `Legacy Button` y `Button-Text Mesh Pro`.
+
+En la ventana de inspector del botón:
+
+- Interactable: Determina si se puede interactuar con el botón o no
+- Transition: Se puede cambiar la forma en la que se ve el botón cuando interactuamos con él
+  - Target Graphic: Se puede agregar también una imagen al canvas y que unirla al botón para que cambie cuando se le de click al botón.
+- Navigation: Se puede alterar a qué otro elemento de la interfaz se mueve cuando se seleccionan ciertas teclas / botones. Utiles para juegos de consola.
+- Evento On Click: al darle click al `+` se le puede asociar una función/objeto para que se trigere cuando se le de click al botón.
+  - Se crea un objeto vacío (mismo proceso que si se estuviera creando un botón)
+  - Le arrastramos un script en específico a ese nuevo objeto
+  - Se arrastra ese objeto con script dentro del espacion On Click del botón
+  - Se selecciona qué función del objeto se ejecutará con el click (necesita ser pública y puede ser una función de a lo mucho 1 parámetro)
+  - Se le pueden asociar múltiples objetos-funciones al botón
