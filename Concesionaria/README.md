@@ -9,3 +9,5 @@ Sacar los archivos de la descarga y acomodarlos.
 Queremos que se pueda cambiar el color de los carros desde la GUI.
 
 AppController = Game Manager
+
+Como tenemos al botón adentro de un container, si lo duplicamos se va a acomodar automaticamente

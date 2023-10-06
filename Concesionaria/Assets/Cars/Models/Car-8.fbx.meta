@@ -3,12 +3,37 @@ guid: 344d33e51fe319c4c9568dabc486c3ff
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 2-Red
+    second: {fileID: 2100000, guid: 779381270195546aea0076d64a4c73e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3-Black-T
+    second: {fileID: 2100000, guid: e2b713b6caa1044d391aaea74876d948, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4-glass
+    second: {fileID: 2100000, guid: 58b93edec51ac48c194025efc46cdced, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5-black
+    second: {fileID: 2100000, guid: e2b713b6caa1044d391aaea74876d948, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 6-steel
+    second: {fileID: 2100000, guid: 35f68691e5e1348ca8b04767cdaaa9ba, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

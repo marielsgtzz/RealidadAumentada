@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void CambiarColor(Color nuevoColor) {
-        materialPaint.SetColor("_Color", nuevoColor); //El nombre de la propiedad esta en el shader del material
+        Debug.Log(materialPaint.GetColor("_BaseColor"));
+        materialPaint.SetColor("_BaseColor", nuevoColor); //El nombre de la propiedad esta en el shader del material
     }
 }
