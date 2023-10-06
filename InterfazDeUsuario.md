@@ -143,3 +143,5 @@ En la ventana de inspector del botón:
   - Se le pueden asociar múltiples objetos-funciones al botón
 
 Los componentes de toggle y slider funcionan de forma muy similar.
+
+Dentro del canvas le podemos agregar a uno de los objetos (ej. `content` del `viewport`) el componente extra de `Layout` para acomodar/centrar los elementos de una forma más eficiente.
