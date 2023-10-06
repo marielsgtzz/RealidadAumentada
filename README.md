@@ -18,6 +18,8 @@ Un manual sobre los componentes básicos y más usados de una interfaz gráfica.
 <br>
 <br>
 
+https://library.vuforia.com/objects/best-practices-designing-and-developing-image-based-targets
+
 ### Información Consultada
 
 [EXPERTO en Realidad Aumentada con Unity®2019 y Vuforia](https://www.udemy.com/course/introduccion-a-la-realidad-aumentada-unity-vuforia/)
