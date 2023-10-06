@@ -6,6 +6,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
+    public Material materialPaint;
+
     private void Awake()
     {
         if (Instance == null ) {
@@ -16,4 +18,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void CambiarColor(Color nuevoColor) {
+        materialPaint.SetColor("_Color", nuevoColor); //El nombre de la propiedad esta en el shader del material
+    }
 }
