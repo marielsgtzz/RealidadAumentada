@@ -13,7 +13,7 @@ Iniciar un proyecto de AR en Unity con un simple ejemplo de Foxy. Se coloca un i
 
 Un manual sobre los componentes básicos y más usados de una interfaz gráfica.
 
-[Explicacion GUI](InterfazDeUsuario.md)
+[Explicacion GUI](https://github.com/marielsgtzz/IntroAUnity/blob/main/InterfazDeUsuario.md)
 
 <br>
 <br>
